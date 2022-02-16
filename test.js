@@ -1,11 +1,4 @@
-var a = "hello";
-var b = 5;
+var string1 = "abc";
+var string2 = "abc";
 
-if (!isNaN(a)){
-
-        console.log("meaning of life is" + (a * b));
-
-} else{
-
-        console.log("that aint even a number, thickie");
-}
+console.log(string1 === string2);
